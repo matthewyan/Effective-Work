@@ -1,6 +1,5 @@
 # Effective-Work
 
-[TOC]
 
 ### 文本编辑
 
