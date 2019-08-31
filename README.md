@@ -1,2 +1,13 @@
 # Effective-Work
-高效工作的一些笔记
+
+[TOC]
+
+### 文本编辑
+
+[vim](vim.md)
+
+
+### shell
+
+bash
+zsh
