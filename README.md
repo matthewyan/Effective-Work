@@ -6,6 +6,8 @@
 
 [vim](vim.md)
 
+### Git
+[git](git.md)
 
 ### shell
 
