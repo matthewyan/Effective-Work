@@ -1,18 +1,12 @@
 # Effective-Work
 
 
-### 文本编辑
+## [vim](vim.md)
 
-[vim](vim.md)
-
-----
-
-### Git
-[git](git.md)
+-----
+## [git](git.md)
 
 ----
 
-### shell
+## bash
 
-bash
-zsh
