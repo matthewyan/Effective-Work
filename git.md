@@ -86,7 +86,7 @@ git rebase --abort	# 中止rebase
 >
 > rebase时，theirs表示当前分支，ours是表示被rebase的分支
 
-参考[化解冲突：git merge 与 git rebase 中的 ours 和 theirs](https://bitmingw.com/2017/02/16/git-merge-rebase-ours-and-theirs/)
+参考：[化解冲突：git merge 与 git rebase 中的 ours 和 theirs](https://bitmingw.com/2017/02/16/git-merge-rebase-ours-and-theirs/)
 
 
 
