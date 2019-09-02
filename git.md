@@ -32,7 +32,7 @@
 
 还有一种不安全的方式：`git reset --hard commitID` 然后 `git push -f`。 表示先在本地重置到某次提交，然后强制将远端的记录用本地替换。
 
-
+​	
 
 ----
 
@@ -49,7 +49,7 @@
 | `git branch -u=origin/master` | 设置远程分支跟踪 (`-u`与`--set-upstream-to`等同)           |
 | `git merge --no-ff develop`   | 在merge指定分支时，生成一个合并结点 (即禁用`Fast-Forward`) |
 
-
+​	
 
 ----
 
@@ -86,7 +86,7 @@ git rebase --abort	# 中止rebase
 
 参考[化解冲突：git merge 与 git rebase 中的 ours 和 theirs](https://bitmingw.com/2017/02/16/git-merge-rebase-ours-and-theirs/)
 
-
+​	
 
 ----
 
@@ -103,7 +103,7 @@ submodule相关信息，存储在了`.gitmodules`文件中
 
 要删除某个submodule，参考：[delete_git_submodule.md](https://gist.github.com/myusuf3/7f645819ded92bda6677)
 
-
+​	
 
 ----
 
@@ -130,9 +130,7 @@ submodule相关信息，存储在了`.gitmodules`文件中
 | `git show commit file`                              | 查看某次，某个文件的修改                     |
 | `git fetch --all && git reset --hard origin/master` | 重置本地所有修改，并更新到远端仓库的最新代码 |
 
-
-
-
+​	
 
 ----
 
