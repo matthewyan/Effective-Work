@@ -115,12 +115,17 @@ submodule相关信息，存储在了`.gitmodules`文件中
 
 ### SubTree
 
-| 命令                                                         | 作用                      |
-| ------------------------------------------------------------ | ------------------------- |
-| `git subtree add --prefix=Path http://gitrepo.git master --squash` | 添加subtree               |
-| `git subtree pull --prefix=Path http://gitrepo.git master --squash` | 更新代码                  |
-| `git subtree push --prefix=Path http://gitrepo.git master`   | 推送代码                  |
-| `git log | grep git-subtree-dir | tr -d ' ' | cut -d ":" -f2 | sort | uniq` | 查看工程所有subtree的仓库 |
+| 命令                                                         | 作用        |
+| ------------------------------------------------------------ | ----------- |
+| `git subtree add --prefix=Path http://gitrepo.git master --squash` | 添加subtree |
+| `git subtree pull --prefix=Path http://gitrepo.git master --squash` | 更新代码    |
+| `git subtree push --prefix=Path http://gitrepo.git master`   | 推送代码    |
+
+要查看subtree仓库有哪些，可以使用：
+
+``` shell
+git log | grep git-subtree-dir | tr -d ' ' | cut -d ":" -f2 | sort | uniq
+```
 
 
 
