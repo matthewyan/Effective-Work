@@ -9,5 +9,8 @@
 
 
 
-## [bash](bash.md)
+## [命令行相关](bash.md)
 
+资料：
+
+[命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
